@@ -15,3 +15,7 @@ img{
     width: 220px;
     height: 200px;
 }
+section{
+    width: 800px;
+    margin: 0px auto;
+}
