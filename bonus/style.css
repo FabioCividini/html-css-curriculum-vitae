@@ -1,0 +1,28 @@
+header{
+    background-color: lightgray;
+    border-bottom: 2px solid rgb(221, 161, 32);
+    text-align: center;
+    padding: 3%;
+}
+h2{
+    color: rgb(221, 161, 32);
+}
+footer{
+    border-top:2px solid rgb(221, 161, 32);
+    text-align: center;
+    padding: 2%;
+}
+img{
+    width: 220px;
+    height: 200px;
+}
+section{
+    width: 800px;
+    margin: 0px auto;
+}
+h3{
+    font-style: italic;
+}
+main{
+    text-align: center;
+}
