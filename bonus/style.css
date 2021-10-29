@@ -1,8 +1,10 @@
 header{
-    background-color: lightgray;
+    background-color: lightgreen;
     border-bottom: 2px solid rgb(221, 161, 32);
     text-align: center;
     padding: 3%;
+    width: 800px;
+    margin: 0px auto;
 }
 h2{
     color: rgb(221, 161, 32);
@@ -13,7 +15,9 @@ footer{
     border-top:2px solid rgb(221, 161, 32);
     text-align: center;
     padding: 2%;
-    background-color: lightgray;
+    background-color: lightgreen;
+    width: 800px;
+    margin: 0px auto;
 }
 img{
     width: 220px;
@@ -38,4 +42,5 @@ span{
 }
 h1{
     font-size: 40px;
+    color: rgb(221, 161, 32);
 }
