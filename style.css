@@ -1,7 +1,15 @@
 header{
     background-color: lightgray;
+    margin: auto;
+    border-bottom: 2px solid orange;
     text-align: center;
 }
-hr{
-    border-color: orange;
+h2{
+    color: orange;
+}
+footer{
+    margin: auto;
+    border-top:2px solid orange;
+    text-align: center;
+    padding: 1%;
 }
