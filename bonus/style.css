@@ -6,11 +6,14 @@ header{
 }
 h2{
     color: rgb(221, 161, 32);
+    font-size: 30px;
+    text-decoration: underline;
 }
 footer{
     border-top:2px solid rgb(221, 161, 32);
     text-align: center;
     padding: 2%;
+    background-color: lightgray;
 }
 img{
     width: 220px;
@@ -22,7 +25,17 @@ section{
 }
 h3{
     font-style: italic;
+    font-size: 20px;
 }
 main{
     text-align: center;
+}
+p{
+    font-family: Verdana;
+}
+span{
+    font-weight: bold;
+}
+h1{
+    font-size: 40px;
 }
