@@ -16,10 +16,51 @@
     <main>
         <h2>Registrazione al PARTY</h2>
         <form>
-            <label id="nome" for="Username"><strong>Username</strong></label>
-            <br>
-            <input id="Username" type="text" placeholder="Username" required>
-            
+            <div>
+                <label for="Nome"><strong>NOME</strong></label>
+                <br>
+                <input id="Nome" type="text" placeholder="Inserisci nome" required>
+            </div>
+            <div>
+                <label for="Email"><strong>E-MAIL</strong></label>
+                <br>
+                <input id="Email" type="email" placeholder="Inserisci e-mail" required>
+            </div>
+            <div>
+                <label for="Telefono"><strong>TELEFONO</strong></label>
+                <br>
+                <input id="Telefono" type="numer" placeholder="Inserisci numero" required>
+            </div>
+            <div>
+                <label for="orario"><strong>ORARIO DI ARRIVO</strong></label>
+                <br>
+                <input id="orario" type="time">
+            </div>
+            <div>
+                <label for="numero persone"><strong>NUMERO PERSONE</strong></label>
+                <br>
+                <input id="numero persone" type="numer" placeholder="Inserisci numero persone" required>
+            </div>
+            <div>
+                <label for="come ci hai trovato"><strong>COME CI HAI TROVATO</strong></label>
+                <br>
+                <select name="Come ci hai trovato" id="come ci hai trovato">
+                    <option value="Social">Social</option>
+                    <option value="Passaparola">Passaparola</option>
+                    <option value="Pubblicità">Pubblicità</option>
+                    <option value="Altro">Altro</option>
+                </select>
+            </div>
+            <div>
+                <label for="costume"><strong>CHE COSTUME INDOSSERAI?</strong></label>
+                <br>
+                <textarea name="costume" id="costume" cols="30" rows="6" placeholder="Che costume indosserai alla festa?"></textarea>
+            </div>
+            <div>
+                <label id="privacy" for="Privacy"><strong>ACCETTA LA PRIVACY</strong></label>
+                <input type="checkbox" name="Privacy" id="Privacy" required>
+            </div>
+            <button><strong>REGISTRATI</strong></button>
         </form>
     </main>
 </body>

@@ -6,17 +6,28 @@ body{
 }
 h1{
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(221, 144, 0);
     font-style: italic;
 }
 h2{
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(221, 144, 0);
 }
 #sottotitolo{
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: underline;
     color: black;
+}
+#privacy{
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(221, 144, 0);
+    width: 110px;
+    height: 50px;
+    font-size: 15px;
 }
